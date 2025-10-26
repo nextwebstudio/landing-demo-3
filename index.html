@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoundWave Pro™ - Precision Audio for Everyday Life</title>
+  <meta name="description" content="Premium wireless earbuds with active noise cancellation, deep bass and 30-hour battery life. Limited offer 30% OFF today!">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22><text y=%22.9em%22 font-size=%2290%22>🎧</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+</head>
+<body>
+
+<!-- Sticky Buy -->
+<div class="sticky-buy">
+  <span>SoundWave Pro™</span>
+  <a href="#buy" class="btn primary">Buy Now - $89</a>
+</div>
+
+<header class="hero container">
+  <div class="hero-text">
+    <h1>SoundWave Pro™</h1>
+    <p>Premium wireless audio engineered for comfort, power and clarity.</p>
+    <ul>
+      <li><i class="fa-solid fa-circle-check"></i> Active Noise Cancellation</li>
+      <li><i class="fa-solid fa-circle-check"></i> 30h Battery Life + Fast Charge</li>
+      <li><i class="fa-solid fa-circle-check"></i> IPX5 Sweat & Water Resistant</li>
+    </ul>
+    <a href="#buy" class="btn primary big">Buy Now - $89</a>
+    <span class="sub">Limited Offer - 30% OFF Today</span>
+  </div>
+
+  <div class="hero-img">
+    <img src="https://images.unsplash.com/photo-1606224161936-d1106cccf0f8?auto=format&fit=crop&w=900&q=80" alt="SoundWave Pro Earbuds">
+  </div>
+</header>
+
+<section class="benefits container">
+  <h2>Why SoundWave Pro™?</h2>
+  <div class="grid-3">
+    <div class="card">
+      <i class="fa-solid fa-volume-high"></i>
+      <h3>Immersive Sound</h3>
+      <p>Deep bass, rich vocals and crisp highs.</p>
+    </div>
+    <div class="card">
+      <i class="fa-solid fa-wave-square"></i>
+      <h3>Noise Cancellation</h3>
+      <p>Block distractions. Focus on what matters.</p>
+    </div>
+    <div class="card">
+      <i class="fa-solid fa-battery-full"></i>
+      <h3>30h Battery</h3>
+      <p>All-day listening with fast USB-C charging.</p>
+    </div>
+  </div>
+</section>
+
+<section class="gallery container">
+  <img src="https://images.unsplash.com/photo-1588422333075-947d2419b620?auto=format&fit=crop&w=900&q=80" alt="View 1" onclick="zoom(this)">
+  <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80" alt="View 2" onclick="zoom(this)">
+  <img src="https://images.unsplash.com/photo-1590658006821-04da4b1893be?auto=format&fit=crop&w=900&q=80" alt="View 3" onclick="zoom(this)">
+</section>
+
+<section class="reviews container">
+  <h2>What Customers Say</h2>
+  <div class="review"><span class="stars">★★★★★</span> “Best earbuds I’ve tried — great bass!” — Mark R.</div>
+  <div class="review"><span class="stars">★★★★★</span> “Noise cancellation is crazy good.” — Julia S.</div>
+  <div class="review"><span class="stars">★★★★★</span> “Super comfortable even after hours.” — Diego P.</div>
+</section>
+
+<section id="buy" class="buy container">
+  <h2>Choose Your Color</h2>
+  <div class="product-box">
+    <img id="color-img" src="https://images.unsplash.com/photo-1606224161936-d1106cccf0f8?auto=format&fit=crop&w=900&q=80" alt="Product">
+    <div class="options">
+      <button class="color-chip selected" data-img="https://images.unsplash.com/photo-1606224161936-d1106cccf0f8?auto=format&fit=crop&w=900&q=80"></button>
+      <button class="color-chip black" data-img="https://images.unsplash.com/photo-1588422333075-947d2419b620?auto=format&fit=crop&w=900&q=80"></button>
+    </div>
+    <p class="price">$89 <span class="old">$129</span></p>
+    <a href="#" class="btn primary big"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+    <p class="secure"><i class="fa-solid fa-lock"></i> Secure | PayPal | Visa | Mastercard</p>
+  </div>
+</section>
+
+<section class="faq container">
+  <h2>FAQ</h2>
+  <details><summary>Is there a warranty?</summary><p>Yes, 24 months against defects.</p></details>
+  <details><summary>Do they work with Android & iOS?</summary><p>Yes, full compatibility.</p></details>
+  <details><summary>Are they sweatproof?</summary><p>Yes, certified IPX5.</p></details>
+</section>
+
+<footer class="footer">
+  © <span id="year"></span> SoundWave Pro™
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
